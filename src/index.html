@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Global Opt</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <%= _.template(require('@blocks/header/header.html'))() %>
+    <!-- Преимущества -->
+    <%= _.template(require('@blocks/advantages/advantages.html'))() %>
+    <!-- Наша работа -->
+    <%= _.template(require('@blocks/ourWork/ourWork.html'))() %>
+    <!-- Агент в Китае -->
+    <%= _.template(require('@blocks/agent/agent.html'))() %>
+    <!-- Цены -->
+    <%= _.template(require('@blocks/prices/prices.html'))() %>
+    <!-- Менеджеры -->
+    <%= _.template(require('@blocks/manager/manager.html'))() %>
+    <!-- Схема работы -->
+    <%= _.template(require('@blocks/scheme/scheme.html'))() %>
+    <!-- Отзывы -->
+    <%= _.template(require('@blocks/reviews/reviews.html'))() %>
+    <!-- Остались вопросы -->
+    <%= _.template(require('@blocks/questions/questions.html'))() %>
+    <!-- Контакты -->
+    <%= _.template(require('@blocks/location/location.html'))() %>
+    <!-- Footer -->
+    <%= _.template(require('@blocks/footer/footer.html'))() %>
+</body>
+
+</html>

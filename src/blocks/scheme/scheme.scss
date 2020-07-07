@@ -1,0 +1,38 @@
+.scheme {
+    min-height: 331px;
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+
+    &__wrapper {
+        margin-top: 29px;
+
+        &_2 {
+            margin-top: 23px;
+        }
+    }
+
+    &__item {
+        width: 258px;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__subtitle {
+        color: $red;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+    }
+}

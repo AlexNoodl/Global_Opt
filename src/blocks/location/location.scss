@@ -1,0 +1,59 @@
+.location {
+    min-height: 500px;
+    background: url("../blocks/location/bg.png") center (center/cover) no-repeat;
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 408px;
+        top: 228px;
+        left: 457px;
+    }
+
+    &__descr {
+        position: relative;
+        width: 309px;
+        height: 158px;
+        margin-left: 39px;
+        background: #ffffff;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: calc(50% - 12px);
+            right: 100%;
+            width: 0;
+            height: 0;
+            border-top: 12px solid transparent;
+            border-right: 24px solid #ffffff;
+            border-bottom: 12px solid transparent;
+        }
+    }
+
+    &__text {
+        width: 261px;
+        padding: 27px 0 0 33px;
+    }
+
+    &__subtitle {
+        color: $red;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    &__address {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        line-height: 20px;
+    }
+
+    &__mail {
+        font-size: 14px;
+        font-weight: 300;
+        color: $red;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

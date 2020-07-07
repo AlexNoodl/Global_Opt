@@ -1,0 +1,15 @@
+.manager {
+    min-height: 342px;
+    background: url("../blocks/manager/bg.png") center (center/cover) no-repeat;
+
+    &__obj {
+        position: relative;
+        padding-top: 82px;
+    }
+
+    &__img {
+        position: absolute;
+        top: 103px;
+        left: 544px;
+    }
+}

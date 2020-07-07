@@ -1,0 +1,47 @@
+.subtitle {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+
+    &_header {
+        margin-top: 9px;
+        font-family: "Roboto Condensed";
+        text-transform: uppercase;
+    }
+
+    &_ourWork,
+    &_prices,
+    &_reviews {
+        font-size: 21px;
+        color: #2e2e2e;
+        line-height: 24px;
+        margin-top: 17px;
+    }
+
+    &_agent,
+    &_manager {
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        margin-top: 22px;
+    }
+
+    &_manager {
+        margin-top: 18px;
+    }
+
+    &_footer {
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 275px;
+
+    }
+
+    &_form {
+        margin-top: 56px;
+        color: #3a3a3a;
+        font-size: 28px;
+        line-height: 23px;
+    }
+}

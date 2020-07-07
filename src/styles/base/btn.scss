@@ -1,0 +1,47 @@
+.btn {
+    width: 160px;
+    height: 45px;
+    background-color: $red;
+    border-radius: 25px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22.04px;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($red, 10%);
+    }
+
+    &_header {
+        width: 230px;
+        height: 57px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 39px;
+    }
+
+    &_prices {
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    &_submit {
+        width: 180px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        position: relative;
+        z-index: 2;
+        outline: 13px solid #ffffff;
+
+        &_2 {
+            margin-top: 17px;
+            outline: none;
+        }
+    }
+}

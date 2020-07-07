@@ -1,0 +1,33 @@
+.ourWork {
+    min-height: 529px;
+    padding: 58px 0 51px 0;
+
+    &__wrapper {
+        margin-top: 37px;
+    }
+
+    &__item {
+        width: 360px;
+        text-align: center;
+    }
+
+    &__img {
+        max-width: 360px;
+        max-height: 210px;
+    }
+
+    &__subtitle {
+        color: $red;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 28px;
+    }
+
+    &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-top: 11px;
+    }
+}

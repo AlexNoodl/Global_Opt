@@ -1,0 +1,32 @@
+.title {
+    color: $red;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+
+    &_header {
+        margin: 26px 0;
+        font-family: 'Roboto Condensed';
+    }
+
+    &_advantages,
+    &_ourWork,
+    &_agent,
+    &_prices,
+    &_manager,
+    &_scheme,
+    &_reviews {
+        margin: 0 auto;
+        color: #2e2e2e;
+        font-size: 26px;
+        line-height: 23px;
+    }
+
+    &_agent,
+    &_manager {
+        color: #ffffff;
+        text-transform: none;
+        margin-top: 20px;
+    }
+}

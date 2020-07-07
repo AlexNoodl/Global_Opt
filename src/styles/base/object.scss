@@ -1,0 +1,16 @@
+.object {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid $red;
+    border-bottom: none;
+    width: 148px;
+    margin-top: 20px;
+    &_reviews {
+        margin-top: 25px;
+    }
+    &_footer {
+        width: 100%;
+        border-color: #898989;
+        margin-top: 38px;
+    }
+}

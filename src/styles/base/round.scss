@@ -1,0 +1,16 @@
+.round {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 102px;
+    height: 102px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+
+    &_prices {
+        border-color: $red;
+        background-color: #ffffff;
+        outline: 13px solid #ffffff;
+        z-index: 2;
+    }
+}

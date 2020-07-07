@@ -1,0 +1,16 @@
+.agent {
+    min-height: 342px;
+    background: url("../blocks/agent/bg.png") center (center/cover) no-repeat;
+
+    &__obj {
+        position: relative;
+        padding-top: 79px;
+
+    }
+
+    &__img {
+        position: absolute;
+        top: 100px;
+        left: 547px;
+    }
+}

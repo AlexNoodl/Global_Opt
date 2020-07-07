@@ -1,0 +1,65 @@
+.footer {
+    min-height: 201px;
+    background-color: #25333c;
+    padding: 24px 0 28px 0;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+
+        &_author {
+            padding-top: 30px;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 17px;
+
+            a {
+                color: rgba($color: #ffffff, $alpha: 0.6);
+                text-decoration: none;
+
+                &:hover {
+                    color: $red;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    &__logo {
+        width: 68px;
+        height: 71px;
+        margin-right: 43px;
+    }
+
+    &__contacts {
+        margin-right: 19px;
+    }
+
+    &__call {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: right;
+    }
+
+    &__phone {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px;
+        text-decoration: none;
+    }
+
+    &__privacyPolicy {
+        padding-right: 450px;
+    }
+
+    &__copyright {
+        padding-right: 223px;
+    }
+
+    &__author {
+        padding-right: 10px;
+    }
+}
