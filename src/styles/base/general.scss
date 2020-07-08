@@ -10,4 +10,20 @@ body {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0;
+
+}
+
+.status {
+    z-index: 5;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
 }

@@ -91,6 +91,14 @@ const plugins = () => {
                from: path.resolve(__dirname, "src/favicon.ico"),
                to: path.resolve(__dirname, "dist"),
             },
+            {
+               from: path.resolve(__dirname, "src/server.php"),
+               to: path.resolve(__dirname, "dist"),
+            },
+            {
+               from: path.resolve(__dirname, "src/img"),
+               to: path.resolve(__dirname, "dist/img"),
+            },
          ],
       }),
       new MiniCssExtractPlugin({
@@ -180,7 +188,7 @@ module.exports = {
             test: /\.(png|jpg|jpeg|svg|gif)$/,
             loader: "file-loader",
             options: {
-               outputPath: "images",
+               outputPath: "img",
             },
          },
          // Loader Fonts
